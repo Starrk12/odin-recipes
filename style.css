@@ -1,0 +1,30 @@
+body {
+    font-family: monospace, serif;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #A387A8;
+}
+.heading {
+    background-color: #63556B;
+    cursor: grab;
+    
+}
+img {
+    height: auto;
+    width: 700px;
+    cursor: grab;
+}
+.heading:hover{
+    background-color: #13021C;
+    color: white;    
+}
+
+.list {
+    list-style: none;
+    text-align: left;
+}
+.ordered-list {
+    list-style-type:circle;
+    text-align: center;
+    list-style-position: outside;
+}
